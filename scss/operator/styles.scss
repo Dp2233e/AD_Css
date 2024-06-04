@@ -1,0 +1,18 @@
+@import 'base';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: $base-color + #333; // Add color
+  color: $base-color - #333; // Subtract color
+  font-size: $base-font-size * 2; // Multiply font size
+}
+
+.box-special {
+  transform: scale($scale-factor); // Using a variable defined in _base.scss
+}

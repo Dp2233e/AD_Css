@@ -1,0 +1,32 @@
+// Define some variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-stack: 'Arial', sans-serif;
+$base-font-size: 16px;
+
+// Use variables in your styles
+body {
+  font-family: $font-stack;
+  font-size: $base-font-size;
+}
+
+.header {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.nav {
+  background-color: $secondary-color;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: darken($primary-color, 10%);
+}
