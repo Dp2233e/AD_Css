@@ -63,3 +63,26 @@ header#home {
   }
 }
 
+/* Restaurant template styles */
+.hero-restaurant {
+  position: relative;
+  min-height: 70vh;
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1543352634-8730c1c5d11c?q=80&w=1920&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-card .price {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.navbar.navbar-dark.bg-transparent {
+  background-color: transparent !important;
+}
+
+.navbar.navbar-dark.bg-transparent.scrolled {
+  background-color: rgba(0,0,0,0.6) !important;
+  backdrop-filter: saturate(180%) blur(8px);
+}
+

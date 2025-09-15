@@ -22,5 +22,27 @@ A clean, responsive starter template built with Bootstrap 5.
 
 - Bootstrap 5 via CDN
 
+---
+
+## Restaurant Template
+
+For a restaurant-styled site, open `restaurant.html`.
+
+### Sections Included
+
+- Hero cover with CTA
+- About with image
+- Menu grid with item cards and prices
+- Reservations form
+- Gallery grid
+- Location with map embed
+- Contact and footer
+
+### Customize
+
+- Replace the hero background in `.hero-restaurant` inside `assets/css/styles.css`.
+- Update menu items in the `#menu` section of `restaurant.html`.
+- Adjust colors via CSS variables in `:root`.
+
 # AD_Css
  
